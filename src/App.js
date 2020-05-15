@@ -18,9 +18,24 @@ const App = () => {
   return (
     <div className={classes.page}>
       <h3>Victory Charts</h3>
-      <a href="https://formidable.com/open-source/victory/" target="_blank">
-        https://formidable.com/open-source/victory/
-      </a>
+      <div>
+        <a href="https://formidable.com/open-source/victory/" target="_blank">
+          https://formidable.com/open-source/victory/
+        </a>
+      </div>
+      <div>
+        <a href="https://github.com/FormidableLabs/victory" target="_blank">
+          Victory Github
+        </a>
+      </div>
+      <div>
+        <a
+          href="https://github.com/jsaelhof/victory-chart-test"
+          target="_blank"
+        >
+          Github for this test
+        </a>
+      </div>
       <FlowRate />
       <CyclesChart />
       <ScrubChartsVoronoi />
