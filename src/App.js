@@ -17,6 +17,10 @@ const App = () => {
 
   return (
     <div className={classes.page}>
+      <h3>Victory Charts</h3>
+      <a href="https://formidable.com/open-source/victory/" target="_blank">
+        https://formidable.com/open-source/victory/
+      </a>
       <FlowRate />
       <CyclesChart />
       <ScrubChartsVoronoi />
